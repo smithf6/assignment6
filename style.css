@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(117, 156, 207);
+    padding: 2em;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    background-color: rgb(108, 144, 173);
+    width: fit-content;
+    padding: 0.5em;
+    margin-left: 11%
+}
+h3 {
+    background-color: rgb(149, 127, 170);
+    width: fit-content;
+    padding: 0.5em;
+   
+}
+h4 {
+    background-color:  rgb(130, 107, 151);
+    width: fit-content;
+    padding: 0.25em;
+    
+}
+#astronauts {
+    background-color: grey;
+    padding: 0.5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+h4::before {
+    content: "Aboard the ";
+}
+.description {
+    background-color: rgb(94, 106, 143);
+    width: 60%;
+    height: 100px;
+}
+.description::after {
+    content: "Description of the Astronaut and what they are currently working on in Space.";
+}
+.clear {
+    clear: both;
+}
+body {
+    background-image: url(backgroundimg.avif);
+}
